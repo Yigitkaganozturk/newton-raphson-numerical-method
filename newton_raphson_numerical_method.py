@@ -18,7 +18,7 @@ value_derivative=[]
 valufn=[]
 miscalculation=0.001
 while True:
-    a=input('to enter a function term, press e ')
+    a=input('to enter a function term press e, to skip root finding step enter f ')
     if a=='e':
         coefficient=float(input('enter the coefficient of the term you give '))
         power=float(input('enter the power of the term you give '))
